@@ -45,7 +45,12 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "gray",
+    fontWeight: '400'
   },
+  newText:{
+    color: "gray",
+    fontWeight: '700'
+  }
   
 });
 
