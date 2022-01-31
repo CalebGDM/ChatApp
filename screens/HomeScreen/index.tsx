@@ -5,7 +5,7 @@ import ChatRoomItem from "../../components/ChatRoomItem";
 
 const msg1 = ChatRooms[0]
 
-export default function TabOneScreen() {
+export default function HomeScreen() {
   return (
     <View style={styles.root}>
      <FlatList
