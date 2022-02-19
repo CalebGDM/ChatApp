@@ -27,7 +27,7 @@ const MessageInput = () => {
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === "ios" ? "padding" : "height"}
-      keyboardVerticalOffset={100}
+      keyboardVerticalOffset={120}
     >
       <View style={styles.inputContainer}>
         <TouchableOpacity style={styles.button}>

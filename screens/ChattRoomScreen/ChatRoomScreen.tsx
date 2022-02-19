@@ -8,7 +8,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 export default function ChatRoomScreen(){
     const route = useRoute()
     const navigation = useNavigation()
-    console.warn(route.params?.id);
+    console.log(route.params?.id);
     navigation.setOptions({title: 'Elon Musk'})
     
     return(

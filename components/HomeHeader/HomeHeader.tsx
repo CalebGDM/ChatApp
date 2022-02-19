@@ -11,8 +11,9 @@ import { AntDesign, SimpleLineIcons } from "@expo/vector-icons";
 
 const HomeHeader = () => {
   return (
-    <View style={styles.container}>
-      <Image
+    <SafeAreaView>
+     <View style={styles.container}>
+	 <Image
         style={styles.image}
         source={{
           uri: "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.jpg",
@@ -27,7 +28,8 @@ const HomeHeader = () => {
           <SimpleLineIcons name="pencil" size={24} color="black" />
         </TouchableOpacity>
       </View>
-    </View>
+	</View>
+    </SafeAreaView>
   );
 };
 
